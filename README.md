@@ -6,4 +6,4 @@ and saving it to H2 database.
 Application provide also backend validation for all request object fields and also exception handling with custom ApiError object returning in case of error response.
 Application can now handle json and xml requests and responses.
 There are prepared several WatchRestController tests.
-Given base64 fountain image from request is converted to byte[] for size reduction and saved to db as BLOB.
+Given base64 fountain image from request is converted to byte[] for size reduction and saved to db as BLOB. For now, every valid request creates new watch object to save, no duplicate or other validation specified neither implemented in service layer.
