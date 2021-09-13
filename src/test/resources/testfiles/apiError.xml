@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<apiError>
+    <status>BAD_REQUEST</status>
+    <timestamp/>
+    <message>Field validation error</message>
+    <apiValidationErrors>
+        <object>title</object>
+        <message>Description should have min 3 and max 15 characters.</message>
+    </apiValidationErrors>
+    <apiValidationErrors>
+        <object>price</object>
+        <message>Price shold be positive or zero</message>
+    </apiValidationErrors>
+    <apiValidationErrors>
+        <object>fountain</object>
+        <message>Fountain image is mandatory</message>
+    </apiValidationErrors>
+</apiError>

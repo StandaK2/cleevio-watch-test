@@ -1,0 +1,19 @@
+{
+  "status": "BAD_REQUEST",
+  "timestamp": "2021-09-12T23:52:48.6306463",
+  "message": "Field validation error",
+  "apiValidationErrors": [
+    {
+      "object": "fountain",
+      "message": "Fountain image is mandatory"
+    },
+    {
+      "object": "price",
+      "message": "Price should be positive or zero"
+    },
+    {
+      "object": "title",
+      "message": "Description should have min 3 and max 15 characters."
+    }
+  ]
+}
